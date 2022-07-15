@@ -6,14 +6,12 @@ Geomorpho90m is a set of geomorphometric variables derived from MERIT-DEM. The a
 
 Read about the [methodology here](https://www.nature.com/articles/s41597-020-0479-6)
 
-![geomorph90](https://user-images.githubusercontent.com/6677629/113523325-deafc580-956c-11eb-8dfd-1bf69ee7e216.gif)
-
-Use the following credit when these datasets are cited:
+#### Citation
 
 ```
 Amatulli, Giuseppe, Daniel McInerney, Tushar Sethi, Peter Strobl, and Sami Domisch. "Geomorpho90m, empirical evaluation and accuracy assessment of global high-resolution geomorphometric layers." Scientific Data 7, no. 1 (2020): 1-18.
 ```
-
+![geomorph90](https://user-images.githubusercontent.com/6677629/113523325-deafc580-956c-11eb-8dfd-1bf69ee7e216.gif)
 #### Earth Engine Snippet
 
 ```js
@@ -28,11 +26,11 @@ var spi = ee.ImageCollection("projects/sat-io/open-datasets/Geomorpho90m/spi");
 
 Sample Code: https://code.earthengine.google.com/3efd5e8c5f2f02e637cdbfeedd1d968b
 
-Shared License:
+#### License
 This work is licensed under a Creative Commons Attribution 4.0. You are free to copy and redistribute the material in any medium or format, and to transform and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 
 Curated by: Samapriya Roy
 
 Keywords: Geomorpho90m, geomorphometric layers, MERIT DEM, topographic index, terrain ruggedness index, slope
 
-Last updated: 2021-04-04
+Last updated: 2022-07-15

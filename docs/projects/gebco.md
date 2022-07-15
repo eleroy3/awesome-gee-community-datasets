@@ -8,24 +8,6 @@ For areas outside of the polar regions (primarily south of 60°N and north of 50
 
 The compilation of the GEBCO_2021 Grid from these regional data grids was carried out at the Global Center, with the aim of producing a seamless global terrain model. The GEBCO_2021 Grid includes data sets from a number of international and national data repositories and regional mapping initiatives. For information on the data sets included in the GEBCO_2021 Grid, please see the [list of contributions included in this release of the grid.](https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2021/)
 
-#### Data Citation & Attribution
-
-```
-GEBCO Compilation Group (2021) GEBCO 2021 Grid (doi:10.5285/c6612cbe-50b3-0cff-e053-6c86abc09f8f)
-```
-
-![gebco_grids](https://user-images.githubusercontent.com/6677629/115973752-0c10e300-a51d-11eb-8858-16f51762a948.gif)
-
-#### Earth Engine Snippet
-
-```js
-var gebco_grid = ee.ImageCollection("projects/sat-io/open-datasets/gebco/gebco_grid");
-var gebco_sub_ice_topo = ee.ImageCollection("projects/sat-io/open-datasets/gebco/gebco_sub-ice-topo");
-var gebco_tid_grid = ee.ImageCollection("projects/sat-io/open-datasets/gebco/gebco_tid_grid");
-```
-
-Sample Code: https://code.earthengine.google.com/c1ddba42c1a75fd43fe0d6a38046e0a4
-
 #### GEBCO Type Identifier (TID) grid coding
 
 |TID                  |Definition                                                                                                                                                                                                     |
@@ -52,6 +34,25 @@ Sample Code: https://code.earthengine.google.com/c1ddba42c1a75fd43fe0d6a38046e0a
 |71                   |Unknown source - depth value from an unknown source                                                                                                                                                            |
 |72                   |Steering points - depth value used to constrain the grid in areas of poor data coverage                                                                                                                        |
 
+#### Citation
+
+```
+GEBCO Compilation Group (2021) GEBCO 2021 Grid (doi:10.5285/c6612cbe-50b3-0cff-e053-6c86abc09f8f)
+```
+
+![gebco_grids](https://user-images.githubusercontent.com/6677629/115973752-0c10e300-a51d-11eb-8858-16f51762a948.gif)
+
+#### Earth Engine Snippet
+
+```js
+var gebco_grid = ee.ImageCollection("projects/sat-io/open-datasets/gebco/gebco_grid");
+var gebco_sub_ice_topo = ee.ImageCollection("projects/sat-io/open-datasets/gebco/gebco_sub-ice-topo");
+var gebco_tid_grid = ee.ImageCollection("projects/sat-io/open-datasets/gebco/gebco_tid_grid");
+```
+
+Sample Code: https://code.earthengine.google.com/c1ddba42c1a75fd43fe0d6a38046e0a4
+
+
 #### License
 The GEBCO Grid is placed in the public domain and may be used free of charge. Use of the GEBCO Grid indicates that the user accepts the conditions of use and disclaimer information given below. Users are free to: Copy, publish, distribute and transmit The GEBCO Grid. Adapt The GEBCO Grid. Commercially exploit The GEBCO Grid, by, for example, combining it with other information, or by including it in their own product or application.
 
@@ -61,4 +62,4 @@ Curated by: Samapriya Roy
 
 Keywords: :"Nippon Foundation-GEBCO Seabed 2030 Project, GEBCO, General Bathymetric Chart of the Oceans, Bathymetry , Elevation"
 
-Last updated: 2021-09-29
+Last updated: 2022-07-15

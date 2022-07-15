@@ -7,7 +7,7 @@ To provide a measure of social vulnerability and "defenselessness" in the face o
 
 The documentation for this dataset is [available here](https://sedac.ciesin.columbia.edu/data/set/wacvm-social-vulnerability-indices/docs)
 
-Use the following citation
+#### Citation
 
 ```
 Center for International Earth Science Information Network - CIESIN - Columbia University. 2018. West Africa Coastal Vulnerability Mapping: Social Vulnerability Indices. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). https://doi.org/10.7927/H4H41PCK. Accessed DAY MONTH YEAR.
@@ -25,11 +25,11 @@ var wacvm_svi = ee.FeatureCollection("projects/sat-io/open-datasets/sedac/wacvm-
 
 Sample Code: https://code.earthengine.google.com/d6d07d10eafabbdcb57c7965f0b984dc
 
-Shared License:
+#### License
 This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.
 
 Curated by: Samapriya Roy
 
 Keywords: census geography, GPWv4, gridded population, uniform distribution
 
-Last updated: 2021-04-11
+Last updated: 2022-07-15

@@ -9,14 +9,6 @@ In partnership with the Center for International Earth Science Information Netwo
 * Youth (ages 15-24)
 * Elderly (ages 60+)
 
-
-To reference this data, please use the following citation:
-
-```
-Facebook Connectivity Lab and Center for International Earth Science Information Network - CIESIN - Columbia University. 2016. High Resolution Settlement Layer (HRSL). Source imagery for HRSL Copyright 2016 DigitalGlobe. Accessed DAY MONTH YEAR. Data shared under: Creative Commons Attribution International.
-```
-
-
 You can get methodology here:
 
 https://dataforgood.fb.com/docs/methodology-high-resolution-population-density-maps-demographic-estimates/
@@ -25,7 +17,11 @@ and step by step download here
 
 https://dataforgood.fb.com/docs/high-resolution-population-density-maps-demographic-estimates-documentation/
 
-License: Creative Commons Attribution International
+#### Citation
+
+```
+Facebook Connectivity Lab and Center for International Earth Science Information Network - CIESIN - Columbia University. 2016. High Resolution Settlement Layer (HRSL). Source imagery for HRSL Copyright 2016 DigitalGlobe. Accessed DAY MONTH YEAR. Data shared under: Creative Commons Attribution International.
+```
 
 ![HRSL_pop](https://user-images.githubusercontent.com/6677629/110987570-e648c980-8334-11eb-8615-535114fde903.gif)
 
@@ -42,13 +38,17 @@ var HRSL_elderly_over_sixty = ee.ImageCollection("projects/sat-io/open-datasets/
 
 Sample Code: https://code.earthengine.google.com/5f8af7ee25d50d44a58c90bf0efc91bb
 
-Extra Info: [Medium Article here](https://medium.com/@samapriyaroy/community-datasets-in-google-earth-engine-an-experiment-b72daa474819)
-
-Download Tool/Code snippets if any: [hdxpop](https://github.com/samapriya/hdxpop)
+#### License 
+Creative Commons Attribution International
 
 Curated by: Samapriya Roy
 
 Keywords: High Density Population, Population, Facebook
+
+#### Extra Information
+[Medium Article here](https://medium.com/@samapriyaroy/community-datasets-in-google-earth-engine-an-experiment-b72daa474819)
+
+Download Tool/Code snippets if any: [hdxpop](https://github.com/samapriya/hdxpop)
 
 #### Changelog
 
@@ -56,4 +56,4 @@ Keywords: High Density Population, Population, Facebook
 * Now includes data version as metadata & uses global COGs
 * Now includes data from HRSL v1.5+
 
-Last updated: 2022-06-11
+Last updated: 2022-07-15

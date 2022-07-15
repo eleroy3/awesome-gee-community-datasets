@@ -9,15 +9,19 @@ From the paper we find
 
 Read [the paper here](https://www.nature.com/articles/s41598-020-61408-1)
 
-![bss](https://user-images.githubusercontent.com/6677629/121795301-1a05ea80-cbd5-11eb-8505-8d275ca64953.gif)
+#### App and App Source Code 
 
-Use the following credit when these datasets or paper is cited:
+App Website: [App link here](https://geocis.users.earthengine.app/view/bare-surfaces)
+
+Source Code to App: https://code.earthengine.google.com/6b2935468ce30e08ce693a9cc95f943c
+
+#### Citation
 
 ```
 Demattê, José AM, et al. "Bare earth’s Surface Spectra as a proxy for Soil Resource Monitoring."
 Scientific reports 10.1 (2020): 1-11.
 ```
-
+![bss](https://user-images.githubusercontent.com/6677629/121795301-1a05ea80-cbd5-11eb-8505-8d275ca64953.gif)
 #### Earth Engine Snippet
 
 ```js
@@ -27,15 +31,12 @@ var bare_frequency = ee.Image('users/geocis/BareSurfaces/BF_1980_2019');
 
 Sample Code: https://code.earthengine.google.com/8fc9d2e3531ba32b895332b575e6cc04
 
-App Website: [App link here](https://geocis.users.earthengine.app/view/bare-surfaces)
 
-Source Code to App: https://code.earthengine.google.com/6b2935468ce30e08ce693a9cc95f943c
-
-Shared License:
+#### License
 This work is licensed under a Creative Commons Attribution 4.0. You are free to copy and redistribute the material in any medium or format, and to transform and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 
 Created & Curated by: Demattê, José AM, et al
 
 Keywords: Bare Earth Surface, Soil, Geomorphology, Landsat, Bare Surface Frequency
 
-Last updated: 2021-06-12
+Last updated: 2022-07-15
