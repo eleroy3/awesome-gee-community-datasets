@@ -5,7 +5,7 @@ The RGE ALTI® 5m dataset describes the ground elevation of France with a spatia
 #### Dataset Preprocessing
 The dataset was preprocessed by [Guillaume Attard](https://guillaumeattard.com/) from the ASCII files and converted into sub regional datasets. These images were then combined into a single Earth Engine image.
 
-#### Suggested Citation under ETALAB license
+#### Citation 
 
 Additional information on license and citation guide can be [found here](https://www.etalab.gouv.fr/wp-content/uploads/2018/11/open-licence.pdf)
 
@@ -36,3 +36,5 @@ Created by: National Institute of Geographic and Forest Information (IGN)
 Curated in GEE by: Guillaume Attard and Samapriya Roy
 
 Keywords: digital elevation model, terrain, remote sensing, France
+
+Last updated: 2022-07-15
