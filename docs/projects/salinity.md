@@ -1,22 +1,25 @@
 # Global Surface water and groundwater salinity measurements (1980-2019)
 
-This data contains a new global salinity database, compiled from electrical conductivity (EC) monitoring data of both surface water (rivers, lakes/reservoirs) and groundwater locations over the period 1980-2019. The database includes information from over 16.3 million samples, from 45,103 surface water locations and 208,550 groundwater locations around the world.
+This data contains a new global salinity database, compiled from electrical conductivity (EC) monitoring data of both surface water (rivers, lakes/reservoirs) and groundwater locations over the period 1980-2019. The database includes information from over 16.3 million samples, from 45,103 surface water locations and 208,550 groundwater locations around the world. You can [download the dataset here](https://doi.pangaea.de/10.1594/PANGAEA.913939?format=html#download). You can [read the article here](https://www.nature.com/articles/s41597-020-0562-z)
 
+
+#### Source Data Structure
 The database consists of three categories;
 1. River Data
 2. Lake/Reservoir Data
 3. Groundwater Data
 
-Each category have two associated data files in csv-format, one containing the full salinity data, and one summary file currently the full salinity datasets are ingested. You can [download the dataset here](https://doi.pangaea.de/10.1594/PANGAEA.913939?format=html#download). You can [read the article here](https://www.nature.com/articles/s41597-020-0562-z)
+Each category have two associated data files in csv-format, one containing the full salinity data, and one summary file currently the full salinity datasets are ingested. 
+#### Citation
 
-#### Data Citation
+Data Citation: 
 
 ```
 Thorslund, Josefin; van Vliet, Michelle T H (2020): A global salinity dataset of surface water
 and groundwater measurements from 1980-2019. PANGAEA, https://doi.org/10.1594/PANGAEA.913939
 ```
 
-#### Paper Citation
+Paper Citation:
 
 ```
 Thorslund, Josefin, and Michelle TH van Vliet. "a global dataset of surface water and groundwater
@@ -45,4 +48,4 @@ Curated by: Samapriya Roy
 
 Keywords: : electrical conductivity, groundwater monitoring, Salinity, surface water, lakes, reservoirs
 
-Last updated: 2021-11-25
+Last updated: 2022-07-15

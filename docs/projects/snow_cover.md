@@ -10,19 +10,6 @@ Quantiles (probability either 0.05, 0.5, 0.9 and/or 0.95) have been derived by m
 
 To access and visualize global datasets use: https://openlandmap.org
 
-If you discover a bug, artifact or inconsistency in the maps, or if you have a question please use some of the following channels:
-
-Technical issues and questions about the code: https://gitlab.com/openlandmap/global-layers/issues
-All files provided as Cloud-Optimized GeoTIFFs / internally compressed using "COMPRESS=DEFLATE" creation option in GDAL. File naming convention:
-
-* clm = theme: climate,
-* snow.cover = variable: snow cover fractions,
-* esa.modis = data source ESA snow product,
-* p.90 = upper 90% quantile,
-* 1km = spatial resolution / block support: 1 km,
-* s0..0cm = vertical reference: land surface,
-* 2000_2012 = time reference aggregated: from 2000 to 2012
-
 #### Data citation
 
 ```
@@ -49,6 +36,22 @@ Sample Code: https://code.earthengine.google.com/489333ffe575920a4623c10c11a5292
 #### License
 
 This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.
+
+#### Extra Information:
+If you discover a bug, artifact or inconsistency in the maps, or if you have a question please use some of the following channels:
+
+Technical issues and questions about the code: https://gitlab.com/openlandmap/global-layers/issues
+
+All files provided as Cloud-Optimized GeoTIFFs / internally compressed using "COMPRESS=DEFLATE" creation option in GDAL. 
+
+File naming convention:
+* clm = theme: climate,
+* snow.cover = variable: snow cover fractions,
+* esa.modis = data source ESA snow product,
+* p.90 = upper 90% quantile,
+* 1km = spatial resolution / block support: 1 km,
+* s0..0cm = vertical reference: land surface,
+* 2000_2012 = time reference aggregated: from 2000 to 2012
 
 Created by: Hengl 2021
 

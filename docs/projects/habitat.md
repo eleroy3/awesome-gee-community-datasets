@@ -28,13 +28,13 @@ var change2016_lvl1 = ee.Image("users/Uploads/habitattypes/changemasks2016/iucn_
 print(change2016_lvl1)
 
 ```
-Extra Info:
+#### Extra Info:
 Code to reproduce the maps can be found [here](https://github.com/Martin-Jung/Habitatmapping) and be visualized [here](https://uploads.users.earthengine.app/view/habitat-types-map). Default Maps are for the year 2015. Change maps are also available for later years (2016-2019) based on Copernicus only. Note that provided changemasks are cumulative (e.g. the year 2019 includes changes up to 2019). They can be used to `updateMask` the 2015 image.
 
-#### Repository for download:
+Repository for download:
 https://zenodo.org/record/4058819
 
-#### Source Code for dataset
+Source Code for dataset
 [https://github.com/Martin-Jung/Habitatmapping](https://github.com/Martin-Jung/Habitatmapping)
 
 Created by : Jung, M., Dahal, P.R., Butchart, S.H.M. et al
@@ -43,4 +43,4 @@ Curated by: Martin Jung
 
 Keywords: Global habitats, Ecosystems, Integrated map, IUCN, Biodiversity, Species
 
-Last updated: 2020-09-01
+Last updated: 2022-07-15

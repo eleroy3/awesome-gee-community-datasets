@@ -38,3 +38,4 @@ Created by:  NASA, METI, AIST, Japan Spacesystems and U.S./Japan ASTER Science T
 Curated in GEE by: Samapriya Roy
 
 Keywords: ASTER, DEM, elevation, remote sensing, Water Bodies Database
+

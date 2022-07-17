@@ -5,15 +5,16 @@ These datasets provide global maps of carbon density (aboveground, belowground b
 #### Preprocessing
 All datasets tif files were ingested in Google Earth Engine, Ecosystem layers were ingested after removing the no data value to avoid conflict with a -128 no data value. The ecosystem categorical layers were also ingested with a mode sampling as recommended by GEE.
 
-#### Paper Citation
+#### Citation
 
+Paper Citation:
 ```
 Noon, M.L., Goldstein, A., Ledezma, J.C. et al. Mapping the irrecoverable carbon in Earth’s ecosystems.
 Nat Sustain (2021). https://doi.org/10.1038/s41893-021-00803-6
 ```
 
-#### Data Citation
 
+Data Citation:
 ```
 Noon, Monica, Goldstein, Allie, Ledezma, Juan Carlos, Roehrdanz, Patrick, Cook-Patton, Susan C., Spawn-Lee, Seth A., Wright, Timothy Maxwell,
 Gonzalez-Roglich, Mariano, Hole, David G., Rockström, Johan, & Turner, Will R. (2021). Mapping the irrecoverable carbon in Earth's ecosystems
@@ -51,4 +52,4 @@ Curated by: Samapriya Roy
 
 Keywords: : irrecoverable carbon, vulnerable carbon, manageable carbon, global map, ecosystem
 
-Last updated: 2021-12-14
+Last updated: 2022-07-15
