@@ -10,6 +10,7 @@ The database consists of three categories;
 3. Groundwater Data
 
 Each category have two associated data files in csv-format, one containing the full salinity data, and one summary file currently the full salinity datasets are ingested. 
+
 #### Citation
 
 Data Citation: 

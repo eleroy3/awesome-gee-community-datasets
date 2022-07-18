@@ -6,7 +6,9 @@ In this study the users generated: (1) a harmonized detailed geospatial data of 
 
 Disclaimer: Whole or parts of the dataset description was provided by the author(s) or their works.
 
-#### Paper citation
+#### Citation
+
+Paper citation
 
 ```
 Nirandjan, S., Koks, E.E., Ward, P.J. et al. A spatially-explicit harmonized global dataset of critical infrastructure. Sci Data 9, 150 (2022).
@@ -14,7 +16,7 @@ https://doi.org/10.1038/s41597-022-01218-4
 ```
 
 
-#### Dataset citation
+ Dataset citation
 
 ```
 Nirandjan, Sadhana, Koks, Elco E., Ward, Philip J., & Aerts, Jeroen C.J.H. (2021). A spatially-explicit harmonized global dataset of critical infrastructure (v1.0.0.)
