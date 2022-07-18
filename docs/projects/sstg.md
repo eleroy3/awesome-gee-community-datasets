@@ -4,14 +4,16 @@ Sea surface temperature (SST) is an important geophysical parameter that is esse
 
 The SSTG dataset is a global sea surface temperature data during the period of 2002-2019, in Celsius, in monthly temporal and 0.041° spatial resolution. It is produced by combing daily in situ SST data and daily satellite SST retrieval data from two infrared (MODIS and AVHRR) and three passive microwave (AMSR-E, AMSR2, Windsat) radiometers after calibration by using a temperature depth and observation time correction model. The accuracy assessments indicate that the reconstructed dataset exhibits significant improvements and can be used for mesoscale ocean phenomenon analyses.
 
-#### Paper Citation
+#### Citation
+
+Paper Citation:
 
 ```
 Cao, M., Mao, K., Yan, Y., Shi, J., Wang, H., Xu, T., Fang, S., and Yuan, Z.: A new global gridded sea surface temperature data product based on
 multisource data, Earth Syst. Sci. Data, 13, 2111–2134, https://doi.org/10.5194/essd-13-2111-2021, 2021.
 ```
 
-#### Data Citation
+Data Citation:
 
 ```
 Mengmeng cao, Kebiao Mao, Yibo Yan, Jiancheng Shi, Han Wang, Tongren Xu, Shu Fang, & Zijin Yuan. (2021). A New Global Gridded Sea Surface
@@ -36,8 +38,8 @@ This work is distributed under the Creative Commons Attribution 4.0 Internationa
 
 Created by: Mengmeng cao, Kebiao Mao, Yibo Yan, Jiancheng Shi, Han Wang, Tongren Xu, Shu Fang, & Zijin Yuan
 
-Curated by:Samapriya Roy
+Curated by: Samapriya Roy
 
 Keywords: Sea Surface Temperature, SST, Gridded
 
-Last updated: 2021-01-05
+Last updated: 2022-07-17

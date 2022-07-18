@@ -2,7 +2,9 @@
 
 As the most abundant animals on earth, nematodes are a dominant component of the soil community. They play critical roles in regulating biogeochemical cycles and vegetation dynamics within and across landscapes and are an indicator of soil biological activity. Here, we present a comprehensive global dataset of soil nematode abundance and functional group composition. This dataset includes 6,825 georeferenced soil samples from all continents and biomes. For geospatial mapping purposes these samples are aggregated into 1,933 unique 1-km pixels, each of which is linked to 73 global environmental covariate data layers. This study uses direct measurements of soil nematode abundance from 6,825 georeferenced locations around the world, covering all continents and all terrestrial biomes. You can read the [paper here](https://www.nature.com/articles/s41597-020-0437-3)
 
-#### Data Citation
+#### Citation
+
+Data Citation: 
 
 ```
 Hoogen, Johan van den; Geisen, Stefan; Wall, Diana H.; Wardle, David A.; Traunspurger, Walter; Goede, Ron G. M. de;
@@ -10,7 +12,7 @@ et al. (2020): A global database of soil nematode abundance and functional group
 https://doi.org/10.6084/m9.figshare.c.4718003.v1
 ```
 
-#### Paper Citation
+Paper Citation: 
 
 ```
 van den Hoogen, J., Geisen, S., Wall, D.H. et al. A global database of soil nematode abundance and functional group

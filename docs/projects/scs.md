@@ -5,7 +5,7 @@ The maps were produced in the Remote Sensing Lab, McMaster University, between J
 
 You can read the [preprint of the paper here](https://www.essoar.org/doi/10.1002/essoar.10507117.2) and [download the datasets from collection here](https://data.4tu.nl/collections/Carbon_storage_and_distribution_in_terrestrial_ecosystems_of_Canada/5421810)
 
-#### Dataset descriptors
+#### Source Data Descriptors
 
 **Canopy Height Map**
 The canopy height maps were built to be included as covariates in the model to predict AGB (and carbon stock) in forest areas of Canada. We created wall-to-wall height metrics using ATL08 LiDAR products from the ICESat-2 satellite. The data was download for one-year period (October 2018 to October 2019). Points were filtered regarding solar background noise and atmospheric scattering, totaling 49,959 points distributed over the entire Canada. These points were associated with 10 ancillary variables primarily corresponding to structure information, such as seasonal Sentinel-1 VV and VH polarization, annual PALSAR-2 HH and HV polarization, annual clumping index, and also the MODIS NDVI summer season. Afterwards, the random forest algorithm was used to extrapolate ATL08 parameters and develop regression models with the abovementioned spatially continuous variables.
@@ -27,7 +27,7 @@ To generate the soil carbon stock map, we used 6,490 ground samples of soil orga
 |projects/sat-io/open-datasets/carbon_stocks_ca/scc|Soil Carbon Concentration|
 
 
-#### Data Citation
+#### Citation
 
 ```
 Sothe, Camile; Gonsamo, Alemu; Arabian, Joyce; Kurz, Werner A.; Finkelstein, Sarah; Snider, James (2021): Soil organic carbon stock and

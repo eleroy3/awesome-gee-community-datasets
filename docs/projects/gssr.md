@@ -8,12 +8,6 @@ The Global Storm Surge Reconstruction (GSSR) database includes daily maximum sur
 * [MERAA-2 Reconstruction [1980 - 2019]](https://downgit.github.io/#/home?url=https://github.com/moinabyssinia/webmap/tree/gh-pages/merra)
 * [ERA-Five Reconstruction [1979 - 2019]](https://downgit.github.io/#/home?url=https://github.com/moinabyssinia/webmap/tree/gh-pages/erafive)
 
-#### Citation
-
-```
-Tadesse, M.G., Wahl, T. A database of global storm surge reconstructions. Sci Data 8, 125 (2021).
-https://doi.org/10.1038/s41597-021-00906-x
-```
 
 #### Data preprocessing
 
@@ -27,6 +21,12 @@ The combined merged download daily maximum surge values for individual tide gaug
 |MERAA-2 Reconstruction [1980 - 2019]           |merra-2_surge_reconstruction    |
 |ERA-Five Reconstruction [1979 - 2019]          |era-5_surge_reconstruction      |
 
+#### Citation
+
+```
+Tadesse, M.G., Wahl, T. A database of global storm surge reconstructions. Sci Data 8, 125 (2021).
+https://doi.org/10.1038/s41597-021-00906-x
+```
 
 ![gssr](https://user-images.githubusercontent.com/6677629/148161951-b57628b4-f683-4c0c-9c57-1cb632131659.gif)
 
@@ -53,4 +53,4 @@ Curated by: Samapriya Roy
 
 Keywords: : 20-CR, ERA-20C, ERA-Interim, MERAA-2, ERA-Five, reanalysis, storm-surge, surge-reconstruction, NCEP, extreme-sea-level
 
-Last updated: 2022-01-04
+Last updated: 2022-07-17

@@ -1,4 +1,4 @@
-# Argo Float Data(Subset)
+# Argo Float Data (Subset)
 
 Argo is an international program that collects information from inside the ocean using a fleet of robotic instruments that drift with the ocean currents and move up and down between the surface and a mid-water level. Each instrument (float) spends almost all its life below the surface. The name Argo was chosen because the array of floats works in partnership with the Jason earth observing satellites that measure the shape of the ocean surface. (In Greek mythology Jason sailed on his ship the Argo in search of the golden fleece). To learn more about Argo, how it works, [its data and technology, and its scientific and environmental impact, click here](https://argo.ucsd.edu/).
 
@@ -16,7 +16,7 @@ If you used data from a particular month, please add the month key to the end of
 
 Argo (2020). Argo float data and metadata from Global Data Assembly Centre (Argo GDAC) – Snapshot of Argo GDAC of August 2020. SEANOE. https://doi.org/10.17882/42182#76230
 
-#### ArgoVis citation
+##### ArgoVis citation
 Argovis API was used to parse through and get to the datasets, you can cite argovis using the following
 
 ```
@@ -50,6 +50,7 @@ Argo float dataset has been parsed into a small subset of about 20,000 feature c
 
 </center>
 
+![argo_floats_10000](https://user-images.githubusercontent.com/6677629/127728608-08ed871a-bab4-46df-9cad-628760e6b335.png)
 #### Earth Engine Snippet
 
 ```js
@@ -58,7 +59,6 @@ var argo = ee.FeatureCollection("projects/sat-io/open-datasets/argo-subset");
 
 Sample Code: https://code.earthengine.google.com/f43b787ef6890302b01e7f87e40dd8e2
 
-![argo_floats_10000](https://user-images.githubusercontent.com/6677629/127728608-08ed871a-bab4-46df-9cad-628760e6b335.png)
 
 #### License
 Argo data are freely available without restriction and are released in a model similar to a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
@@ -69,4 +69,4 @@ Curated in GEE by: Samapriya Roy
 
 Keywords: float, Argo, global ocean observing system, ocean circulation, in-situ, ocean pressure, sea water salinity, sea water temperature, multi-year, weather climate and seasonal observation, global-ocean
 
-Last updated : 2021-07-30
+Last updated : 2022-07-17

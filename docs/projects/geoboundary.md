@@ -27,6 +27,9 @@ _CGAZ_  - Comprehensive Global Administrative Zones. A global composite of the S
 
 </center>
 
+#### Data Preprocessing for GEE
+To make the datasets more amenable they were downloaded using the API and all features in a folder were then merged into single collections pertaining to varying boundary type and admin levels. There might be some missing pieces owing to issues with downloads and or upload to GEE but care has been taken to minimize those efforts.
+
 #### Citation
 You can [read the paper here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0231866) and cite using citation below
 
@@ -38,12 +41,10 @@ e0231866. https://doi.org/10.1371/journal.pone.0231866
 
 You can also find more information on the [webpage](https://www.geoboundaries.org/) along with the [github project page](https://github.com/wmgeolab/geoBoundaries)
 
-#### Data Preprocessing for GEE
-To make the datasets more amenable they were downloaded using the API and all features in a folder were then merged into single collections pertaining to varying boundary type and admin levels. There might be some missing pieces owing to issues with downloads and or upload to GEE but care has been taken to minimize those efforts.
 
 ![level2_comparison](https://user-images.githubusercontent.com/6677629/125176833-6cb6d000-e19c-11eb-8b25-dcc87a9b1469.gif)
 
-#### Earth Engine Datasets
+#### Earth Engine Snippet
 
 ```js
 var CGAZ_ADM0 = ee.FeatureCollection('projects/earthengine-legacy/assets/projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM0');
@@ -85,4 +86,4 @@ Processed secondary/formatted & Curated by: Samapriya Roy
 
 Keywords: : Metadata, Political Geography, Open Data, Built Structures, Physical Mapping
 
-Last updated: 2021-07-10
+Last updated: 2022-07-17

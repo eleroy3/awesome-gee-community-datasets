@@ -4,13 +4,13 @@ Aqualink is a philanthropically funded system to help people manage their local 
 
 ![aqualink_buoy](https://aqualink.org/static/media/fulldiag3_1.8c0851fb.svg)
 
+#### Source Data Structure
+
 The datasets were downloaded and processed using the [pyaqua tool I wrote earlier](https://samapriya.github.io/pyaqua/) and you can read about [aqualink and the pyaqua tool here](https://medium.com/p/open-ocean-data-with-aqualink-pyaqua-32fb4d99c837). These represent sea surface temperature as well as temperature at depth. These were generated only for deployed buoys and are exported CSVs are then imported into Google Earth Engine. The datasets have timestamp and value for said variable which can be used further to assess conditions over time.
 
 **This is a one year subset only for 56 deployed sites from 2020-01-04 to 2021-01-04 and is a subset for users to test and the format and duration of data might change in the future as this project evolves**
 
-#### Data Citation
-
-Citation rules will vary by journal or need but a good example would be
+#### Citation
 
 ```
 aqualink.org (2021). Clerke Reef West side, Australia SST. Retrieved from https://aqualink.org/sites/1218
@@ -37,4 +37,4 @@ Curated by: Samapriya Roy
 
 Keywords: : aqualink, buoy, temperature, sea surface temperature, sst, wave, oceans, bleaching, coral reefs, extreme-sea-level
 
-Last updated: 2022-01-05
+Last updated: 2022-07-17

@@ -20,7 +20,7 @@ Disclaimer: Whole or parts of the dataset description was provided by the author
 |Pedigree of HDI data|Timesteps: 26|Reports the level (national, sub-national) and type (reported, interpolated, extrapolated) of each year of data                       |
 |Administrative units|Products: 2  |Represents the administrative units used for GDP per capita (PPP) and HDI. National admin units have id 1–999, sub-national ones 1001-|
 
-#### Dataset notes
+Dataset notes:
 
 * Units for GDP is US dollar
 
@@ -28,7 +28,9 @@ Disclaimer: Whole or parts of the dataset description was provided by the author
 
 * Pedigree HDI: Pedigree index numbers, coded as follows: 1-regional reported; 2-regional scaled; 4-national reported; 5-national interpolated; 6-national extrapolated; 7-no data, regional average used
 
-#### Paper citation
+#### Citation 
+
+Paper citation:
 
 ```
 Kummu, M., Taka, M. & Guillaume, J. Gridded global datasets for Gross Domestic Product and Human Development Index over 1990–2015. Sci Data 5, 180004 (2018).
@@ -36,7 +38,7 @@ https://doi.org/10.1038/sdata.2018.4
 ```
 
 
-#### Dataset citation
+Dataset citation: 
 
 ```
 Kummu, Matti; Taka, Maija; Guillaume, Joseph H. A. (2020), Data from: Gridded global datasets for Gross Domestic Product and Human Development Index over 1990-2015,

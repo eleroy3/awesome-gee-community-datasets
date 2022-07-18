@@ -34,7 +34,7 @@ Sample Code: https://code.earthengine.google.com/ded574858c353cac4df6652e14f501b
 Resolution:
 0.8 degee approx 30m
 
-#### License & Usage
+#### License
 Attribution 4.0 International (CC BY 4.0)
 https://creativecommons.org/licenses/by/4.0/.
 
@@ -55,7 +55,7 @@ Keywords: Global, Mangrove, GMW
 
 Last updated: 2019-06-14
 
-## Global Mangrove Watch 2010 Baseline (v2.5)
+# Global Mangrove Watch 2010 Baseline (v2.5)
 
 This study presents an updated global mangrove forest baseline for 2010: Global Mangrove Watch (GMW) v2.5. The previous GMW maps (v2.0) of the mangrove extent are currently considered the most comprehensive available global products, however areas were identified as missing or poorly mapped. Therefore, this study has updated the 2010 baseline map to increase the mapping quality and completeness of the mangrove extent. This revision resulted in an additional 2660 km2 of mangroves being mapped yielding a revised global mangrove extent for 2010 of some 140,260 km2. The overall map accuracy was estimated to be 95.1% with a 95th confidence interval of 93.8–96.5%, as assessed using 50,750 reference points located across 60 globally distributed sites. Of these 60 validation sites, 26 were located in areas that were remapped to produce the v2.5 map and the overall accuracy for these was found to have increased from 82.6% (95th confidence interval: 80.1–84.9) for the v2.0 map to 95.0% (95th confidence interval: 93.7–96.4) for the v2.5 map. Overall, the improved GMW v2.5 map provides a more robust product to support the conservation and sustainable use of mangroves globally. Read the full [paper here](https://www.mdpi.com/2072-4292/14/4/1034/htm?s=09)
 
@@ -83,7 +83,7 @@ Sample Code: https://code.earthengine.google.com/713555a5cc2f2d0c8e9f305aeb9625b
 Resolution:
 0.8 degee approx 30m
 
-#### License & Usage
+#### License
 Attribution 4.0 International (CC BY 4.0)
 https://creativecommons.org/licenses/by/4.0/.
 
@@ -100,4 +100,4 @@ Curated by: Samapriya Roy
 
 Keywords: Global, Mangrove, GMW
 
-Last updated: 2022-01-07
+Last updated: 2022-07-17

@@ -8,6 +8,10 @@ This dataset was created by NOAA's Ocean Service, Office for Coastal Management 
 
 Disclaimer: Whole or parts of the dataset description were provided by the author(s) or their works.
 
+#### Preprocessing
+
+The regional land cover dataset files were downloaded for each region. If the files were img then they were convert to GeoTIFF. Each region was converted into a collection and start and end dates were added based on available information and filenames.
+
 #### Citation
 
 ```
@@ -16,9 +20,7 @@ CAP) High-Resolution Land Cover. Charleston, SC: NOAA Office for Coastal Managem
 htdata/raster1/landcover/bulkdownload/hires/.
 ```
 
-#### Preprocessing
 
-The regional land cover dataset files were downloaded for each region. If the files were img then they were convert to GeoTIFF. Each region was converted into a collection and start and end dates were added based on available information and filenames.
 
 
 ![CCAP_LC_small](https://user-images.githubusercontent.com/6677629/173275567-d9b8a15a-d592-4227-ba8f-9b81081f53bf.gif)

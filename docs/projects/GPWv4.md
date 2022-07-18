@@ -7,7 +7,7 @@ To provide a vector (point) version of the input administrative units used in GP
 
 The documentation for this data set is available [here](http://sedac.ciesin.columbia.edu/data/set/gpw-v4-admin-unit-center-points-population-estimates-rev11/docs)
 
-Use the following citation
+#### Citation
 
 ```
 Doxsey-Whitfield, Erin, Kytt MacManus, Susana B. Adamo, Linda Pistolesi, John Squires, Olena Borkovska, and Sandra R. Baptista. "Taking advantage of the improved availability of census data: a first look at the gridded population of the world, version 4." Papers in Applied Geography 1, no. 3 (2015): 226-234.
@@ -23,11 +23,11 @@ var gpw = ee.FeatureCollection("projects/sat-io/open-datasets/sedac/gpw-v4-admin
 
 Sample Code: https://code.earthengine.google.com/00a4d124364828026daa89aa40fdd0cf
 
-Shared License:
+#### License
 This work is licensed under a Creative Commons Attribution 4.0. You are free to copy and redistribute the material in any medium or format, and to transform and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 
 Curated by: Samapriya Roy
 
 Keywords: census geography, GPWv4, gridded population, uniform distribution
 
-Last updated: 2021-04-07
+Last updated: 2022-07-17 

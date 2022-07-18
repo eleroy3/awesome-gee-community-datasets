@@ -13,7 +13,7 @@ This map does not represent or intend to represent official or legal boundaries 
 * The datasets are always in flux and the latest datasets can be downloaded [using their API](https://native-land.ca/resources/api-docs/)
 
 
-#### Suggested Citation
+#### Citation
 
 (dataset) Native Land Territories map. (2021). Native Land CA. https://native-land.ca/. Accessed 2021-09-19.
 
