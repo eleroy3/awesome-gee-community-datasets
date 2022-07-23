@@ -42,23 +42,20 @@ var isric_ocs = ee.Image("projects/soilgrids-isric/ocs_mean");
 
 Sample Code: https://code.earthengine.google.com/6618d200de937bb5b0325235d52d690f
 
-#### Data available from
-www.soilgrids.org.
+Data available from: www.soilgrids.org.
 
-#### Publication date
-2020-05-04
+Publication date: 2020-05-04
 
-#### Period
-Fri Mar 31 1905 19:00:00 GMT-0500 Mon Jul 04 2016 20:00:00 GMT-0400
+Period: Fri Mar 31 1905 19:00:00 GMT-0500 Mon Jul 04 2016 20:00:00 GMT-0400
 
-#### Provided by :
-International Soil Reference and Information Centre (ISRIC)
+Provided by: International Soil Reference and Information Centre (ISRIC)
+
+DOI: 
+https://doi.org/10.17027/isric-soilgrids.713396fa-1687-11ea-a7c0-a0481ca9e724
 
 #### License
 Attribution 4.0 International (CC BY 4.0)
 
-#### DOI
-https://doi.org/10.17027/isric-soilgrids.713396fa-1687-11ea-a7c0-a0481ca9e724
 
 Created and Curated by: International Soil Reference and Information Centre (ISRIC)
 

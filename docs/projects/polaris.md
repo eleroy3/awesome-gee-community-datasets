@@ -17,17 +17,9 @@ Probabilistic Remapping of SSURGO (POLARIS) soil properties—a database of 30-m
 |n       | measure of the pore size distribution (van genuchten)                       |N/A         |
 |alpha   | scale parameter inversely proportional to mean pore diameter (van genuchten)|log10(kPa-1)|
 
-#### Citation & Related Publications
+[Read the original paper here](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018WR022797) 
 
-[Read the original paper here](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018WR022797) and cite the work using
-
-```
-Chaney, Nathaniel W., Budiman Minasny, Jonathan D. Herman, Travis W. Nauman, Colby W. Brungard, Cristine LS Morgan
-Alexander B. McBratney, Eric F. Wood, and Yohannes Yimam. "POLARIS soil properties: 30‐m probabilistic maps of soil properties
-over the contiguous United States." Water Resources Research 55, no. 4 (2019): 2916-2938.
-```
-
-#### Data characteristics
+#### Source Data Structure
 POLARIS provides a spatially continuous, internally consistent, quantitative prediction of soil series. It offers potential solutions to the primary weaknesses in SSURGO: 1) unmapped areas are gap-filled using survey data from the surrounding regions, 2) the artificial discontinuities at political boundaries are removed, and 3) the use of high resolution environmental covariate data leads to a spatial disaggregation of the coarse polygons.
 
 The dataset is available at varying depth from surface, while the statistics provided include mean, mode , median and percentile values, only median values have been included as part of the collection created.
@@ -47,14 +39,24 @@ The dataset is available at varying depth from surface, while the statistics pro
 
 Overall datasets include processing approximately 80,000 files which have been converted into individual images within a collection per property at varying depth. So for example collection bd_mean includes bd_0_5 and represents a single image for contiguous US with bd value at surface depth of 0-5 cm from surface.
 
-#### Notes from Data providers
+##### Notes from Data providers
 * 05/01/2019 - The variables hb, alpha, ksat, om are in log10 space.
 
 * 05/01/2019 - Due to file size constraints, the 1 arcsec database is split into 1x1 degree tiffs. Each variable/layer/statistic has its own virtual raster that acts as the "glue" of all the smaller 1x1 degree chunks. For more information on virtual rasters see https://www.gdal.org/gdal_vrttut.html.
 
 * 06/02/2019 - The variables hb and alpha were originally reported to have the units of log10(cm) and log10(cm-1) respectively. This was a typo. The correct units are log10(kPa) and log10(kPa-1) respectively.
 
-#### Earth Engine Snippet: HiHydro Additional Layers
+
+#### Citation
+
+```
+Chaney, Nathaniel W., Budiman Minasny, Jonathan D. Herman, Travis W. Nauman, Colby W. Brungard, Cristine LS Morgan
+Alexander B. McBratney, Eric F. Wood, and Yohannes Yimam. "POLARIS soil properties: 30‐m probabilistic maps of soil properties
+over the contiguous United States." Water Resources Research 55, no. 4 (2019): 2916-2938.
+```
+
+
+#### Earth Engine Snippet
 
 ```js
 var bd_mean = ee.ImageCollection('projects/sat-io/open-datasets/polaris/bd_mean');

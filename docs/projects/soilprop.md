@@ -2,7 +2,17 @@
 
 The data shown here were obtained by aggregating current USDA-NCSS soil survey data (SSURGO back-filled with STATSGO where SSURGO is not available) within 800m² grid cells. This data aggregation technique results in maps that may not match the original data at any given point, and is intended to depict regional trends in soil properties at the statewide scale.
 
-This app was developed by the California Soil Resource Lab at UC Davis and UC-ANR in collaboration with the USDA Natural Resources Conservation Service. Please use the following citation for this website and gridded data products:
+This app was developed by the California Soil Resource Lab at UC Davis and UC-ANR in collaboration with the USDA Natural Resources Conservation Service. 
+
+Soil Aggregation Details:
+
+![soil_agg1](https://user-images.githubusercontent.com/6677629/126587405-07ff60f4-1ca4-4483-b1c8-0a0ec1ed5bc5.png)
+![soil_agg2](https://user-images.githubusercontent.com/6677629/126587401-ed103444-fc43-48d1-a76d-81f31d6aeb5e.png)
+
+#### Preprocessing
+For layers with depth profiles a _profile collection is created with a min_depth and max_depth property,this can then be used for filtering an allows the varying profiles to stay in single image collection for a single property like sand and sand_profile for example.
+
+You can [download the data layers here](https://casoilresource.lawr.ucdavis.edu/soil-properties/download.php) along with lookup tables for layers that are categorical instead of continuous. Also mode pyramding policy is applied to all categorical layers and you can find the lookup table for all categorical variable in the download page.
 
 #### Citation
 
@@ -10,6 +20,13 @@ This app was developed by the California Soil Resource Lab at UC Davis and UC-AN
 Walkinshaw, Mike, A.T. O'Geen, D.E. Beaudette. "Soil Properties." California Soil Resource Lab, 1 Oct. 2020,
 casoilresource.lawr.ucdavis.edu/soil-properties/.
 ```
+
+
+
+
+
+
+#### Earth Engine Snippet
 
 |Property Type|Property Name                           |GEE asset                                                                                                            |
 |-------------|----------------------------------------|---------------------------------------------------------------------------------------------------------------------|
@@ -73,18 +90,6 @@ casoilresource.lawr.ucdavis.edu/soil-properties/.
 |             |Soil Color (75 cm)                      |projects/earthengine-legacy/assets/projects/sat-io/open-datasets/CSRL_soil_properties/soil_color                     |
 |             |Soil Color (125 cm)                     |projects/earthengine-legacy/assets/projects/sat-io/open-datasets/CSRL_soil_properties/soil_color                     |
 
-#### Soil Aggregation Details
-
-![soil_agg1](https://user-images.githubusercontent.com/6677629/126587405-07ff60f4-1ca4-4483-b1c8-0a0ec1ed5bc5.png)
-![soil_agg2](https://user-images.githubusercontent.com/6677629/126587401-ed103444-fc43-48d1-a76d-81f31d6aeb5e.png)
-
-#### Preprocessing
-For layers with depth profiles a _profile collection is created with a min_depth and max_depth property,this can then be used for filtering an allows the varying profiles to stay in single image collection for a single property like sand and sand_profile for example.
-
-You can [download the data layers here](https://casoilresource.lawr.ucdavis.edu/soil-properties/download.php) along with lookup tables for layers that are categorical instead of continuous. Also mode pyramding policy is applied to all categorical layers and you can find the lookup table for all categorical variable in the download page.
-
-#### Earth Engine Snippet
-
 
 ```js
 var caco3 = ee.Image('projects/earthengine-legacy/assets/projects/sat-io/open-datasets/CSRL_soil_properties/chemical/caco3');
@@ -131,7 +136,7 @@ var  soil_color = ee.ImageCollection('projects/earthengine-legacy/assets/project
 Sample Code: https://code.earthengine.google.com/3a1cfb868beb449683f32bdd77f65f1b
 
 
-#### Soil Texture Palette
+##### Soil Texture Palette
 Palettes have been created for variable types and a palette for Soil Texture is included below. Some palettes include rgb values and can be converted in hex codes for each variable type. These can be extraced from the app page and a few are included in the sample code.
 
 <center>
@@ -204,7 +209,7 @@ Palettes have been created for variable types and a palette for Soil Texture is 
 Sample Code with Soil Texture Class:https://code.earthengine.google.com/bb16ef5adbd5711d9fcb77ce7705618e
 
 
-#### Shared License
+#### License
 This work is licensed under a Creative Commons Attribution 4.0 International and is an open license unless otherwise indicated. You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 
 Created by : California Soil Resource Lab at UC Davis and UC-ANR in collaboration with the USDA Natural Resources Conservation Service

@@ -14,12 +14,12 @@ This dataset was developed as part of the Vermont High-Resolution Land Cover. As
 * other paved surfaces
 * railroads.
 
-#### Supplemental Information
 
 This assessment and development of methods necessary for its conduct were completed by the University of Vermont's Spatial Analysis Laboratory with funding from the State of Vermont Clean Water Fund, Vermont Agency of Natural Resources, Vermont Agency of Transportation, Lake Champlain Basin Program, and the Vermont Center for Geographic Information (VCGI). Tree canopy assessments have been conducted for numerous communities throughout the U.S. where the results have been instrumental in helping to establishing tree canopy goals.
 
 Disclaimer: Whole or parts of the dataset description were provided by the author(s) or their works.
 
+#### Citation
 ```
 University of Vermont Spatial Analysis Laboratory and VT Center for Geographic Information. Vermont High Resolution Land Cover. Accessed [Month
 Year] at https://geodata.vermont.gov/pages/land-cover

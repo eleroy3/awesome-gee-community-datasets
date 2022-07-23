@@ -2,7 +2,7 @@
 
 Following the IIEP-UNESCO methodology for reconstructing georeferenced school-age populations (ISCED 1 to 3) by year and sex, these datasets were produced by WorldPop (University of Southampton) by applying the Sprague Multipliers to 30-arcsecond (approximately 1km at the equator) gridded datasets depicting the estimated spatial distribution of sex-disaggregated 5-year age groups. These datasets include the sex disaggregated school age population for countries and Dependent territories in Africa only.
 
-#### Inputs
+Input Data: 
 
 * Gagnon, A.A. and G. Vargas Mesa. 2021. Estimating School-Age Populations by Applying Sprague Multipliers to Raster Data. IIEP Technical Notes, 1. Paris: IIEP-UNESCO. Last accessed 17 Jan 2022 https://unesdoc.unesco.org/ark:/48223/pf0000379198
 * UNESCO Institute for Statistics Education database. Last accessed 17 Jan 2022 from http://data.uis.unesco.org

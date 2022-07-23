@@ -7,15 +7,6 @@ Our model was trained with a new benchmark database containing 52.43 million lab
 
 Disclaimer: Whole or parts of the dataset description were provided by the author(s) or their works.
 
-
-#### Citation
-
-```
-Zhang, Yindan, Gang Chen, Soe W. Myint, Yuyu Zhou, Geoffrey J. Hay, Jelena Vukomanovic, and Ross K. Meentemeyer. "UrbanWatch: A 1-
-meter resolution land cover and land use database for 22 major cities in the United States."
-Remote Sensing of Environment 278 (2022): 113106.
-```
-
 #### Preprocessing
 
 I added additional metadata to the images, including city names and abbreviations. While the uncompressed size for these datasets is 211 GB as per the paper, the total GEE collection size is only 4.54 GB. The city list is included in the sample code for easy filtering between the 23 cities.
@@ -72,6 +63,15 @@ I added additional metadata to the images, including city names and abbreviation
 </table>
 
 </center>
+
+#### Citation
+
+```
+Zhang, Yindan, Gang Chen, Soe W. Myint, Yuyu Zhou, Geoffrey J. Hay, Jelena Vukomanovic, and Ross K. Meentemeyer. "UrbanWatch: A 1-
+meter resolution land cover and land use database for 22 major cities in the United States."
+Remote Sensing of Environment 278 (2022): 113106.
+```
+
 
 ![urban_watch](https://user-images.githubusercontent.com/6677629/173255159-ef2fbdee-e8b6-4421-b331-4106ee801faf.gif)
 
